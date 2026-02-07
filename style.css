@@ -1,0 +1,42 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(20, 30, 50, 0.95);
+  text-align: center;
+  padding: 15px 0;
+  z-index: 1000;
+}
+
+.navbar a {
+  color: #f2c48d;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 3px;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: white;
+}
+.era {
+  margin-bottom: 50px;
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+
+.era:hover {
+  transform: translateY(-6px);
+}
+.album-cover {
+  width: 180px;
+  margin: 15px auto 0;
+  display: block;
+  border-radius: 6px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.album-cover:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
