@@ -50,3 +50,14 @@ body {
   transform: scale(1.05);
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
 }
+.eras {
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 120px; /* space for navbar */
+}
+
+
